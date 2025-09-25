@@ -32,14 +32,14 @@ Por lo tanto podemos concluir que :
 
 ---
 
-## d) Evidencias  
+## Evidencias  
 - En la tabla de resultados numéricos, se comparan los beneficios obtenidos por cada algoritmo en 10 ejecuciones distintas. Se observan diferencias entre el valor óptimo (PD/Backtracking) y los algoritmos Aproximado/Voraz.  
 - En el resumen gráfico, el histograma de resultados muestra que el algoritmo voraz consigue soluciones óptimas en un 80% de los casos, pero en un 20% cae en subóptimos.  
 - El diagrama de caja confirma que los valores obtenidos por los algoritmos inexactos tienden a estar próximos al óptimo, aunque con desviaciones.  
 
 ---
 
-## e) Incidencias  
+## Incidencias  
 Hemos tenido problemas a la hora de iniciar con AlgorEx ya que el JDK que teníamos intalado(22) no era compatible y no permitía el correcto funcionamiento ya que se necesitaba un JDK 19 o inferior.
 
 ---
