@@ -148,7 +148,6 @@ O(n)
 La recursividad múltiple redundante se optimiza mediante Programación Dinámica, pasando de complejidad exponencial a lineal.
 
 Ambas técnicas (Memorización y Tabulación) logran 
-
 O(n), aunque:
 
 Tabulación suele ser más eficiente (menor coste constante y sin pila de llamadas).
