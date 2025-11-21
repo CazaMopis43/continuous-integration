@@ -3,7 +3,7 @@
 ## Grados: Ingeniería Informática e Ingeniería de Computadores
 ## Asignatura: Algoritmos Avanzados
 ## Curso: 2025/2026
-## Autores: Marc Burgos Ucendo
+## Autores: Marc Burgos Ucendo,Alberto Sastre Zorrilla
 El objetivo de la práctica es que el alumno profundice en la eliminación de la recursividad múltiple redundante.
 
 El algoritmo a optimizar es:
