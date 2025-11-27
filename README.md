@@ -104,12 +104,16 @@ Nodos repetidos: 0
 
 Total de llamadas reduce de 48 → 18
 
-Complejidad:
-Tiempo: 
-O(n)
-Espacio: 
-O(n)
 
+Tiempo:O(n)→
+El tiempo está dominado por la inicialización de la tabla (O(n)) y el cálculo de cada uno de los ≈2n subproblemas únicos. 
+
+Cada subproblema, cuando se calcula por primera vez (no Cache Hit), toma tiempo O(1). Por lo tanto, el tiempo total es T(n)=O(n)+O(n)=O(n)."
+
+Espacio:O(n)→
+El espacio es determinado por la tabla t de tamaño (n+1)×2 (O(n)) y la profundidad de la pila de llamadas recursivas, que en el peor caso es proporcional a n (O(n)). 
+
+El espacio total es S(n)=O(n)+O(n)=O(n).
 ### Tabulación (Bottom-Up)
 #### Código
 ```Java
