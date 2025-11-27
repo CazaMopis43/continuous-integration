@@ -52,7 +52,13 @@ g(3,1),g(2,0): 4 veces cada uno
 #### Grafo de Dependencia Foto(3)
 Muestra solo los estados únicos g(x,y).
 Los nodos con múltiples arcos entrantes representan subestructuras comunes reutilizables.
+### Tabla
+Se diseña una tabla $t$ para almacenar el resultado de cada subproblema único $g(i, j)$ 
+Dimensiones: La función $g(x, y)$ depende de dos parámetros: $x$ ($0 \le x \le n$) e $y$ ($y \in \{0, 1\}$)  Filas: $x+1$ (índices de $0$ a $x$)Columnas: $2$ (índices $0$ y $1$ para $y$).
 
+```Java
+int[][] t = new int[x + 1][2];
+```
 ### Memorización (Top-Down)
 #### Código
 ```Java
@@ -141,11 +147,14 @@ public static int f_tab (int x) {
 ```
 #### Complejidades:
 
-Tiempo: 
-O(n)
+Tiempo:O(n)→
+El tiempo está dominado por el bucle de llenado de la tabla, el cual itera O(n) veces (desde i=2 hasta x). Dentro del bucle, solo se realizan operaciones de costo constante O(1). 
 
-Espacio: 
-O(n)
+El costo total en tiempo es T(n)=O(n)⋅O(1)=O(n).
+
+Espacio:O(n)→El espacio es determinado por la tabla t de tamaño (n+1)×2 (O(n)). Dado que es una implementación iterativa (Bottom-Up), no utiliza pila de llamadas recursivas (O(1)).
+
+El espacio total es T(n)=O(n)+O(1)=O(n)."
 
 ### Conclusiones
 
