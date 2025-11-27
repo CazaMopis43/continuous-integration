@@ -168,4 +168,5 @@ Tabulación suele ser más eficiente (menor coste constante y sin pila de llamad
 ### Uso de Herramientas de la IA 
 
 Se ha utilizado la Ia para redactar mejor el informe y para consultas sobre la herramienta srec
+
 Se ha añadido una imagen al final que muestra correctamente el apartado de la tabla, ya que al pasarlo a pdf no mantiene la estructura del markdown y aparecen símbolos de dolar, por tanto, para que se vea el resultado que queriamos mostrar hemos adjuntado dicha foto
